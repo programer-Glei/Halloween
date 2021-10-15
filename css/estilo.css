@@ -1,1 +1,18 @@
+:root{
+    --main-color: #ef7819;
+    --black: #141215;
 
+    font-size: 62.5%;
+}
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.2 linear;
+    transition: width none;
+}
