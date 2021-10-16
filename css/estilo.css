@@ -16,3 +16,13 @@
     transition: all 0.2 linear;
     transition: width none;
 }
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
