@@ -60,12 +60,19 @@
 
 .header .search-form{
     position: absolute;
-    top: 115%; right: 2rem;
+    top: 115%; right: -105%;
     background: #fff;
     width: 50rem;
     height: 5rem;
     display: flex;
     align-items: center;
+    opacity: 0;
+}
+
+.header .search-form.active{
+    right: 2rem;
+    opacity: 1;
+    transition: 0.4s linear;
 }
 
 .header .search-form input{
