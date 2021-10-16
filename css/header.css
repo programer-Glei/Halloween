@@ -57,3 +57,13 @@
 #menu-btn{
     display: none;
 }
+
+.header .search-form{
+    position: absolute;
+    top: 115%; right: 2rem;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
