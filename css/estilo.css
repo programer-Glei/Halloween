@@ -34,3 +34,8 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: var(--main-color);
 }
+
+body{
+    overflow-x: hidden;
+    background: var(--black);
+}
