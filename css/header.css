@@ -92,3 +92,8 @@
 .header .search-form label:hover{
     color: var(--main-color);
 }
+
+.header.active{
+    padding: 2rem 9%;
+    background: #222;
+}
