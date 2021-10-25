@@ -28,3 +28,11 @@
     transition-delay: .4s;
     padding: 1rem 0;
 }
+
+.home .home-slider .box .content .button{
+    transition-delay: .6s;
+}
+
+.home .home-slider .box .content > *{
+    transform: translateY(2rem);
+}

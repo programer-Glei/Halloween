@@ -11,6 +11,8 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
     <!-- custon css file link  -->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/header.css">
@@ -45,33 +47,39 @@
 
     <!-- home section starts  -->
     <section id="home" class="home">
-        <div class="home-slider">
-            <div class="wrapper">
-                <div class="box" style="background: url(image/home-slider-1.jpg);">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" style="background: url(image/home-slider-1.jpg);">
                     <div class="content">
                         <h3>Feliz dia das Bruxas</h3>
                         <p>Desconto especial</p>
+                        <div class="button">
+                            <a href="#" class="btn">Compre agora</a>
+                        </div>
                     </div>
-                    <div class="button"><a href="#" class="btn">Compre agora</a></div>
                 </div>
-                <div class="box" style="background: url(image/home-slider-2.jpg);">
+                <div class="swiper-slide box" style="background: url(image/home-slider-2.jpg);">
                     <div class="content">
                         <h3>Até 30% de desconto</h3>
                         <p>Em todas as fantasias</p>
+                        <div class="button"><a href="#" class="btn">Compre agora</a></div>
                     </div>
-                    <div class="button"><a href="#" class="btn">Compre agora</a></div>
                 </div>
-                <div class="box" style="background: url(image/home-slider-3.jpg);">
+                <div class="swiper-slide box" style="background: url(image/home-slider-3.jpg);">
                     <div class="content">
                         <h3>Oferta limitada</h3>
                         <p>não perca</p>
+                        <div class="button"><a href="#" class="btn">Compre agora</a></div>
                     </div>
-                    <div class="button"><a href="#" class="btn">Compre agora</a></div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
     <!-- home section ends  -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     
     <!-- custon js file links  -->
     <script src="javascript/script.js"></script>
