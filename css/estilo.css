@@ -40,3 +40,7 @@ body{
     overflow-x: hidden;
     background: var(--black);
 }
+
+section{
+    padding: 2rem 9%;
+}

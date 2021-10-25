@@ -12,6 +12,10 @@
     .header.active{
         padding: 2rem;
     }
+
+    section{
+        padding: 2rem;
+    }
 }
 
 @media (max-width:768px){
