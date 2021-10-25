@@ -35,4 +35,5 @@
 
 .home .home-slider .box .content > *{
     transform: translateY(2rem);
+    opacity: 0;
 }

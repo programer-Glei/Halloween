@@ -22,3 +22,18 @@ window.onscroll = () =>{
         document.querySelector('.header').classList.remove('active')
     }
 }
+
+let swiper = new Swiper(".home-slider",{
+    spaceBetween: 30,
+    effect: "fade",
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    centeredSlides: true,
+    autoplay:{
+        delay: 2500,
+        disableOnInteraction: false
+    }
+})
