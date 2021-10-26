@@ -43,7 +43,24 @@
     opacity: 1;
 }
 
-.home .home-slider .swiper-button-next,
+.home .home-slider .swiper-button-next{
+    right: 4rem;
+    color: #fff;
+    opacity: 0;
+}
+
 .home .home-slider .swiper-button-prev{
+    left: 4rem;
+    color: #fff;
+    opacity: 0;
+}
+
+.home .home-slider .swiper-button-next:hover,
+.home .home-slider .swiper-button-prev:hover{
     color: var(--main-color);
+}
+
+.home .home-slider:hover .swiper-button-next,
+.home .home-slider:hover .swiper-button-prev{
+    opacity: 1;
 }
