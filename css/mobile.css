@@ -49,4 +49,9 @@
     html{
         font-size: 50%;
     }
+
+    .home .home-slider .swiper-button-next,
+    .home .home-slider .swiper-button-prev{
+        display: none;
+    }
 }
