@@ -37,3 +37,13 @@
     transform: translateY(2rem);
     opacity: 0;
 }
+
+.home .home-slider .swiper-slide-active .content > *{
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.home .home-slider .swiper-button-next,
+.home .home-slider .swiper-button-prev{
+    color: var(--main-color);
+}
