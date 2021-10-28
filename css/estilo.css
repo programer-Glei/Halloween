@@ -45,6 +45,17 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.heading span{
+    color: var(--main-color);
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
