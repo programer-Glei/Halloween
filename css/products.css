@@ -1,6 +1,7 @@
 .products .products-slider .box{
     position: relative;
     text-align: center;
+    overflow: hidden;
     width: 35rem;
 }
 
@@ -22,8 +23,12 @@
 
 .products .products-slider .box .icons{
     position: absolute;
-    top: 0; right: 1rem;
+    top: 0; right: -6rem;
     z-index: 1;
+}
+
+.products .products-slider .box:hover .icons{
+    right: 1rem;
 }
 
 .products .products-slider .box .icons a{
@@ -31,7 +36,7 @@
     width: 4.5rem;
     line-height: 4.5rem;
     border-radius: 50%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--black);
     background: #fff;
     margin-top: 1rem;
@@ -41,4 +46,8 @@
 .products .products-slider .box .icons a:hover{
     background: var(--main-color);
     color: #fff;
+}
+
+.products .products-slider .box .content{
+    padding-top: 1rem;
 }
