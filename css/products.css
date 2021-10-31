@@ -1,5 +1,6 @@
 .products .products-slider .box{
     position: relative;
+    text-align: center;
     width: 35rem;
 }
 
@@ -22,4 +23,22 @@
 .products .products-slider .box .icons{
     position: absolute;
     top: 0; right: 1rem;
+    z-index: 1;
+}
+
+.products .products-slider .box .icons a{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--black);
+    background: #fff;
+    margin-top: 1rem;
+    display: block;
+}
+
+.products .products-slider .box .icons a:hover{
+    background: var(--main-color);
+    color: #fff;
 }
