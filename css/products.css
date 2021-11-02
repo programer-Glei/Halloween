@@ -2,7 +2,6 @@
     position: relative;
     text-align: center;
     overflow: hidden;
-    width: 35rem;
 }
 
 .products .products-slider .box .image{
@@ -49,7 +48,7 @@
 }
 
 .products .products-slider .box .content{
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 .products .products-slider .box .content h3{
