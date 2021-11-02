@@ -63,3 +63,10 @@
     font-weight: bolder;
     color: #fff;
 }
+
+.products .products-slider .box .content .price span{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--main-color);
+    text-decoration: line-through;
+}
