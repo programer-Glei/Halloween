@@ -1,0 +1,16 @@
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    text-align: center;
+    background: #222;
+}
