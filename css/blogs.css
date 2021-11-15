@@ -1,0 +1,17 @@
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+.blogs .box-container .box .imag{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .box-container .box .imag img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
