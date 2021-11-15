@@ -15,3 +15,24 @@
     width: 100%;
     object-fit: cover;
 }
+
+.blogs .box-container .box:hover .imag img{
+   transform: scale(1.2); 
+}
+
+.blogs .box-container .box .content{
+    padding: 2rem;
+    background: #222;
+}
+
+.blogs .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--main-color);
+    line-height: 1.8;
+}
+
+.blogs .box-container .box .content p{
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2;
+}
