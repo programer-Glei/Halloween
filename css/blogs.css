@@ -36,3 +36,25 @@
     color: #fff;
     line-height: 2;
 }
+
+.blogs .box-container .box .content .icons{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid #fff3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogs .box-container .box .content .icons a{
+    font-size: 1.4rem;
+    color: var(--main-color);
+}
+
+.blogs .box-container .box .content .icons a:hover{
+    color: #fff;
+}
+
+.blogs .box-container .box .content .icons a i{
+    padding-right: 0.5rem;
+}
