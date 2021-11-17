@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -88,7 +90,7 @@
     <!-- products section starts  -->
     <section id="products" class="products">
         <h1 class="heading">Nossos <span>Produtos</span></h1>
-        <div class="swiper products-slider">
+        <div class="swiper products-slider" data-aos="zoom-in">
             <div class="swiper-wrapper">
                 <div class="swiper-slide box">
                     <div class="icons">
@@ -167,7 +169,7 @@
 
     <!-- about section starts  -->
     <section class="about" id="about">
-        <div class="content">
+        <div class="content" data-aos="fade-right">
             <h3>Sobre nós</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Rerum voluptate delectus tempora sunt dolores. Itaque molestiae cumque qui quam neque. 
@@ -181,7 +183,7 @@
     <section id="arrivals" class="arrivals">
         <h1 class="heading">Novos <span>Produtos</span></h1>
         <div class="box-container">
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -195,7 +197,7 @@
                     <div class="price">R$ 79,99 <span>R$ 95,99</span></div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -209,7 +211,7 @@
                     <div class="price">R$ 79,99 <span>R$ 95,99</span></div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -223,7 +225,7 @@
                     <div class="price">R$ 79,99 <span>R$ 95,99</span></div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -237,7 +239,7 @@
                     <div class="price">R$ 79,99 <span>R$ 95,99</span></div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -251,7 +253,7 @@
                     <div class="price">R$ 79,99 <span>R$ 95,99</span></div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="icons">
                     <a href="#" class="fas fa-shopping-cart"></a>
                     <a href="#" class="fas fa-eye"></a>
@@ -276,11 +278,11 @@
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7313.043174286123!2d-46.6669872751691!3d-23.585619888683233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1636848674389!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
             <form action="">
                 <h3>Fale conosco</h3>
-                <input type="text" placeholder="Seu nome" class="box">
-                <input type="email" placeholder="Seu email" class="box">
-                <input type="number" placeholder="Seu número" class="box">
-                <textarea placeholder="Sua mensagem" id="" cols="30" rows="10" class="box"></textarea>
-                <input type="submit" value="Enviar mensagem" class="btn">
+                <input data-aos="zoom-in" type="text" placeholder="Seu nome" class="box">
+                <input data-aos="zoom-in" type="email" placeholder="Seu email" class="box">
+                <input data-aos="zoom-in" type="number" placeholder="Seu número" class="box">
+                <textarea data-aos="zoom-in" placeholder="Sua mensagem" id="" cols="30" rows="10" class="box"></textarea>
+                <input data-aos="zoom-in" type="submit" value="Enviar mensagem" class="btn">
             </form>
         </div>
     </section>
@@ -290,7 +292,7 @@
     <section class="blogs" id="blogs">
         <h1 class="heading">Nosso <span>Blog</span></h1>
         <div class="box-container">
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <div class="imag">
                     <img src="image/blog-1.jpg" alt="">
                 </div>
@@ -307,7 +309,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <div class="imag">
                     <img src="image/blog-2.jpg" alt="">
                 </div>
@@ -324,7 +326,7 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <div class="imag">
                     <img src="image/blog-3.jpg" alt="">
                 </div>
@@ -387,5 +389,10 @@
     
     <!-- custon js file links  -->
     <script src="javascript/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>
