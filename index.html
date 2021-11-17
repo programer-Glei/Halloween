@@ -350,7 +350,7 @@
     <!-- footer section starts  -->
     <section id="footer" class="footer">
         <div class="box-container">
-            <div class="box">
+            <div class="box" data-aos="fade-down">
                 <h3>Nossas filiais</h3>
                 <a href=""><i class="fas fa-map-marker-alt"></i>India</a>
                 <a href=""><i class="fas fa-map-marker-alt"></i>EUA</a>
@@ -358,7 +358,7 @@
                 <a href=""><i class="fas fa-map-marker-alt"></i>França</a>
                 <a href=""><i class="fas fa-map-marker-alt"></i>Japão</a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <h3>Links Rápidos</h3>
                 <a href=""><i class="fas fa-arrow-right"></i>Home</a>
                 <a href=""><i class="fas fa-arrow-right"></i>Produtos</a>
@@ -367,13 +367,13 @@
                 <a href=""><i class="fas fa-arrow-right"></i>Contato</a>
                 <a href=""><i class="fas fa-arrow-right"></i>Blog</a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 <h3>Fale conosco</h3>
                 <a href=""><i class="fas fa-phone"></i>+55 81 98469-7069</a>
                 <a href=""><i class="fas fa-envelope"></i>gleibson.santos05@gmail.com</a>
                 <a href=""><i class="fas fa-map-marker-alt"></i>São paulo, São paulo - Brasil</a>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right">
                 <h3>Fale conosco</h3>
                 <a href=""><i class="fas fa-facebook-f"></i>Facebook</a>
                 <a href=""><i class="fas fa-twitter"></i>Twitter</a>
@@ -392,7 +392,10 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init()
+        AOS.init({
+            delay:400,
+            duration: 800
+        })
     </script>
 </body>
 </html>
